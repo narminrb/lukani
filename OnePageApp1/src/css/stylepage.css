@@ -1,0 +1,320 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  height: 100vh; 
+  overflow: hidden;
+  background-image: url(../assets/bckimg.png); 
+  background-size: 100% auto; 
+  background-position: center top; 
+  background-repeat: no-repeat; 
+}
+
+
+nav {
+  width: 100%;
+  position: relative; 
+  background-color: transparent;
+  z-index: 10;
+}
+
+.nav_row {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  justify-content: space-between;
+  width: 100%; 
+}
+
+.left_side, .right_side {
+  display: flex;
+  align-items: center;
+}
+.left_side .nav_group{
+  padding: 4px 0;
+  flex-wrap: wrap;
+
+}
+.left_side .nav_group a{
+  text-decoration: none;
+  color: black;
+
+}
+.left_side .nav_group a h1 {
+  outline: none;
+  text-decoration: none;
+  font-size: 180px;
+  color: black; 
+  margin-right: 300px;
+  
+}
+.left_side .nav_group a h4 {
+ 
+  outline: none;
+  text-decoration: none;
+  font-size: 60px;
+  color: #4A4B4A; 
+  margin-right: 100px;
+
+  
+}
+.right_side .search input {
+  width: 100%;
+  padding: 60px 100px; 
+  border: none; 
+  font-size: 45px; 
+  font-weight: 400; 
+  width:1440px; 
+  height: 70px; 
+  background-color: transparent; 
+  color: white; 
+  border-radius: 10px; 
+  outline: none; 
+}
+
+.right_side .search input::placeholder {
+  font-size: 45px;
+  color: white; 
+}
+.head_icons .btn_groups{
+  background: none;
+  border: none;
+}
+
+.head_icons .btn_groups i{
+  margin-left: 30px;
+  margin-right: 70px;
+  background: none;
+  border: none; 
+  font-size: 6rem;
+  gap: 100px;
+  cursor: pointer;
+  margin-left: 35px;
+  color: #777676;
+}
+
+.wel_container{
+ max-width: 60%;
+ margin: 0 auto;
+}
+.form{
+  margin: 0 auto;
+  padding: 10px;
+}
+.wel_row{
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+}
+.wel_row .left_wel{
+  flex-basis: 40%;
+}
+.wel_row .left_wel img{
+  width: 100%;
+  height: 100%;
+  
+}
+.wel_row .right_wel {
+  flex-basis: 60%;
+  
+}
+.wel_row .right_wel h3{
+  font-size: 70px;
+  color: #79A21D;
+
+}
+.wel_row .right_wel h1{
+  font-size: 120px;
+  color: #404040;
+
+}
+.wel_row .right_wel p{
+  font-size: 50px;
+  color: #404040;
+
+}
+.wel_row .right_wel h2{
+  font-size: 50px;
+  color: #404040;
+
+}
+.wel_row .right_wel img{
+  width: 30%;
+  color: #404040;
+  flex-wrap: wrap;
+
+}
+.top_row {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.new_arrivals {
+  font-size: 8rem;
+  color: #272626;
+  margin-bottom: 100px;
+  font-weight: 500; 
+}
+
+.underline {
+  width: 6%;
+  border: 0;
+  border-top: 8px solid #141414;
+  margin: 10px auto; 
+  margin-bottom: 60px;
+}
+.price_container{
+  width: 100%;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.price_row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px; 
+  margin: 40px 0;
+  margin-bottom: 150px;
+  flex-wrap: wrap; 
+}
+.price_row .form_group{
+  flex-basis: 18%;
+}
+.price_row img {
+  width: 100%; 
+  max-width: 100%; 
+  height: auto; 
+  object-fit: cover; 
+}
+.price_row a{
+  text-decoration: none; 
+  font-size: 3.5rem;
+  color: #3e3d3d;
+  padding: 10px 20px; 
+}
+.price_row a{
+text-decoration: none;
+}
+.price_row a :hover{
+  color:#79A21D;
+  text-decoration:none;
+
+}
+.price_row h4{
+  font-size: 4.5rem;
+  color: #79A21D;
+  font-weight: 600;
+  
+}
+.ceo_row {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.quest {
+  font-size: 8rem;
+  color: #272626;
+  margin-bottom: 100px;
+  font-weight: 500; 
+}
+
+.underline {
+  width: 6%;
+  border: 0;
+  border-top: 8px solid #141414;
+  margin: 10px auto; 
+  margin-bottom: 60px;
+}
+.write p{
+  margin: 100px;
+  display: flex;
+  justify-content: center;
+  font-size: 85px;
+  font-family: "Edu VIC WA NT Beginner", cursive;
+}
+.ceoimg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ceoimg img {
+  width: 10%;
+  height: 10%;
+}
+.btn_img{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 300px;
+  margin-bottom: 300px;
+  
+}
+
+.btn_img img {
+  width: 400px;
+  height: 100%;
+  object-fit: cover;
+}
+.quest span{
+  color: #79A21D;
+}
+.email {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 300px;
+  margin-bottom: 500px;
+  gap: 20px;
+ 
+}
+.undr{
+  width: 37%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid #141414;
+}
+
+.icon i {
+  font-size: 100px; 
+  margin: 60px;
+  color: #333; 
+}
+
+.input input {
+  width: 1700px; 
+  height: 150px; 
+  margin: 10px;
+  font-size: 60px;
+  padding: 10px 0; 
+  border:none ;
+  border-bottom: #141414;
+  outline: none;
+}
+
+
+.sub_btn button {
+  font-size: 50px; 
+  font-weight: bold;
+  padding: 12px 20px; 
+  color: rgb(39, 38, 38); 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  background-color: transparent;
+}
+
